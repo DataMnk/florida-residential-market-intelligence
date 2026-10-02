@@ -23,20 +23,34 @@ Main work completed:
 
 The dataset contains monthly observations from January 2023 through August 2026. Each row represents one county, one property type, and one month.
 
-### Part 2 — Classification Pipeline
+### Part 2 — Classification Pipeline ✅
 
-The second part extends the project into a supervised classification problem.
+The second part extended the project into a supervised classification problem.
 
-Planned work:
+The goal was to predict whether the median sale price would increase the following month.
 
-- Define a categorical market outcome
-- Build a reusable preprocessing pipeline
-- Train at least two classification models
-- Evaluate Accuracy, Precision, Recall, F1-score, and ROC-AUC
-- Create confusion matrix and ROC curve visualizations
-- Compare model performance
+Work completed:
 
-### Part 3 — Neural Models
+- Created a next-month binary classification target
+- Used chronological validation to avoid future-data leakage
+- Trained Logistic Regression and Decision Tree baseline models
+- Added HistGradientBoosting as a stronger nonlinear model
+- Evaluated Accuracy, Precision, Recall, F1-score, and ROC-AUC
+- Used time-aware cross-validation
+- Created confusion matrices and ROC curve visualizations
+- Compared all three models on the same test period
+
+Best test results came from HistGradientBoosting:
+
+- Accuracy: 0.619
+- F1-score: 0.615
+- ROC-AUC: 0.670
+
+The results show some predictive signal, but performance is still too modest for real property-level investment decisions.
+
+Next, the project will explore 3-, 6-, and 12-month prediction horizons and more granular market and property-level data.
+
+### Part 3 — Neural Models Integration
 
 Planned extension using neural network models to explore more complex relationships in the housing market data.
 
