@@ -4,6 +4,24 @@ Machine learning project for analyzing and modeling the Florida residential real
 
 This project uses monthly county-level housing market data from Redfin. The goal is to study market conditions across Florida and gradually build a machine learning system that can later be presented through an interactive dashboard.
 
+## Course Information
+
+**Group 3**
+
+**Courses:**  
+- CAI 4505C — Artificial Intelligence  
+- CAI 4510C — Machine Intelligence  
+
+**Professor:** Martin Idahosa  
+**Institution:** EnTec — Miami Dade College
+
+### Team Members
+
+- Deemond Allbritton
+- Diana Gomez
+- Ricardo Molina Gonzalez
+- Rodrigo Betancourt
+
 ## Project Roadmap
 
 ### Part 1 — Proposal and Dataset Exploration ✅
